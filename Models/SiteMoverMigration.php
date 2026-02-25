@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Vito\Plugins\Arnobolt\SiteMover\Models;
+namespace App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Models;
 
-use App\Vito\Plugins\Arnobolt\SiteMover\Enums\MigrationStatus;
+use App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Enums\MigrationStatus;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Vito\Plugins\Arnobolt\SiteMover\Models;
+namespace App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

@@ -1,6 +1,6 @@
 <?php
 
-use App\Vito\Plugins\Arnobolt\SiteMover\Enums\MigrationStatus;
+use App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Enums\MigrationStatus;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;

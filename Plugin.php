@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Vito\Plugins\Arnobolt\SiteMover;
+namespace App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover;
 
 use App\Plugins\AbstractPlugin;
 use App\Plugins\RegisterSiteFeature;
 use App\Plugins\RegisterSiteFeatureAction;
-use App\Vito\Plugins\Arnobolt\SiteMover\Actions\History;
-use App\Vito\Plugins\Arnobolt\SiteMover\Actions\Migrate;
-use App\Vito\Plugins\Arnobolt\SiteMover\Actions\Scan;
-use App\Vito\Plugins\Arnobolt\SiteMover\Actions\Validate;
+use App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Actions\History;
+use App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Actions\Migrate;
+use App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Actions\Scan;
+use App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Actions\Validate;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Schema;

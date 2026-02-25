@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Vito\Plugins\Arnobolt\SiteMover\Jobs;
+namespace App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Jobs;
 
 use App\Models\Site;
-use App\Vito\Plugins\Arnobolt\SiteMover\Enums\MigrationStatus;
-use App\Vito\Plugins\Arnobolt\SiteMover\Models\SiteMoverMigration;
-use App\Vito\Plugins\Arnobolt\SiteMover\Services\BackupService;
-use App\Vito\Plugins\Arnobolt\SiteMover\Services\DiscoveryService;
-use App\Vito\Plugins\Arnobolt\SiteMover\Services\RestoreService;
-use App\Vito\Plugins\Arnobolt\SiteMover\Services\ValidationService;
+use App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Enums\MigrationStatus;
+use App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Models\SiteMoverMigration;
+use App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Services\BackupService;
+use App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Services\DiscoveryService;
+use App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Services\RestoreService;
+use App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Services\ValidationService;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 

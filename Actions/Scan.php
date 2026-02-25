@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Vito\Plugins\Arnobolt\SiteMover\Actions;
+namespace App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Actions;
 
 use App\DTOs\DynamicField;
 use App\DTOs\DynamicForm;
 use App\SiteFeatures\Action;
-use App\Vito\Plugins\Arnobolt\SiteMover\Enums\MigrationStatus;
-use App\Vito\Plugins\Arnobolt\SiteMover\Models\SiteMoverMigration;
-use App\Vito\Plugins\Arnobolt\SiteMover\Services\DiscoveryService;
+use App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Enums\MigrationStatus;
+use App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Models\SiteMoverMigration;
+use App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Services\DiscoveryService;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 

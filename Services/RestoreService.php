@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Vito\Plugins\Arnobolt\SiteMover\Services;
+namespace App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Services;
 
 use App\Actions\CronJob\CreateCronJob;
 use App\Actions\Database\CreateDatabase;
@@ -16,8 +16,8 @@ use App\Models\Server;
 use App\Models\Site;
 use App\Models\Worker;
 use App\Services\ProcessManager\ProcessManager;
-use App\Vito\Plugins\Arnobolt\SiteMover\Models\SiteMoverMigration;
-use App\Vito\Plugins\Arnobolt\SiteMover\Support\EnvParser;
+use App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Models\SiteMoverMigration;
+use App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Support\EnvParser;
 use RuntimeException;
 
 class RestoreService

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Vito\Plugins\Arnobolt\SiteMover\Support;
+namespace App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Support;
 
 class EnvParser
 {

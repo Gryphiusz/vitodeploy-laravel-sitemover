@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Vito\Plugins\Arnobolt\SiteMover\Services;
+namespace App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Services;
 
 use App\Models\Database;
 use App\Models\DatabaseUser;
 use App\Models\Site;
-use App\Vito\Plugins\Arnobolt\SiteMover\Support\EnvParser;
+use App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Support\EnvParser;
 
 class DiscoveryService
 {

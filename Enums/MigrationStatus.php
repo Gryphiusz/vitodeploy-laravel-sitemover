@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Vito\Plugins\Arnobolt\SiteMover\Enums;
+namespace App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Enums;
 
 enum MigrationStatus: string
 {

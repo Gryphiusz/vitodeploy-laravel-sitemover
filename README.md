@@ -16,9 +16,9 @@ Laravel site migration plugin for VitoDeploy.
 
 ## Installation (Local Development)
 
-If your plugin repository is `arnobolt/site-mover`, place it at:
+If your plugin repository is `gryphiusz/vitodeploy-laravel-sitemover`, place it at:
 
-`app/Vito/Plugins/Arnobolt/SiteMover`
+`app/Vito/Plugins/Gryphiusz/VitodeployLaravelSitemover`
 
 Then in Vito UI:
 

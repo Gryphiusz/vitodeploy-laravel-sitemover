@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Vito\Plugins\Arnobolt\SiteMover\Services;
+namespace App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Services;
 
 use App\Enums\WorkerStatus;
 use App\Models\Site;
-use App\Vito\Plugins\Arnobolt\SiteMover\Support\EnvParser;
+use App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Support\EnvParser;
 use Throwable;
 
 class ValidationService

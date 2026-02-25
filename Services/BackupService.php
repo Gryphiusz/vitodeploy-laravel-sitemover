@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Vito\Plugins\Arnobolt\SiteMover\Services;
+namespace App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Services;
 
 use App\Models\Site;
-use App\Vito\Plugins\Arnobolt\SiteMover\Models\SiteMoverMigration;
+use App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Models\SiteMoverMigration;
 use RuntimeException;
 
 class BackupService
@@ -51,7 +51,7 @@ class BackupService
         $connection = strtolower((string) ($database['connection'] ?? 'mysql'));
         $dbName = (string) $database['name'];
 
-        $sourceEnv = app(\App\Vito\Plugins\Arnobolt\SiteMover\Support\EnvParser::class)
+        $sourceEnv = app(\App\Vito\Plugins\Gryphiusz\VitodeployLaravelSitemover\Support\EnvParser::class)
             ->parse($sourceSite->getEnv());
 
         $host = $sourceEnv['DB_HOST'] ?? '127.0.0.1';
